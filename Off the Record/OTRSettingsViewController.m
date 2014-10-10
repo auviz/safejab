@@ -23,6 +23,7 @@
 #import "OTRSettingsViewController.h"
 #import "OTRProtocolManager.h"
 #import "OTRBoolSetting.h"
+#import "customFunction.h"
 #import "Strings.h"
 #import "OTRSettingTableViewCell.h"
 #import "OTRSettingDetailViewController.h"
@@ -32,6 +33,7 @@
 #import "OTRNewAccountViewController.h"
 #import "OTRConstants.h"
 #import "OTRAppDelegate.h"
+
 
 #define ACTIONSHEET_DISCONNECT_TAG 1
 #define ALERTVIEW_DELETE_TAG 1

@@ -21,6 +21,7 @@
 //  along with ChatSecure.  If not, see <http://www.gnu.org/licenses/>.
 
 #import "OTRNewAccountViewController.h"
+#import "customFunction.h"
 #import "Strings.h"
 #import "OTRProtocol.h"
 #import "OTRConstants.h"

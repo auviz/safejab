@@ -27,6 +27,7 @@
 #import "OTRXMPPManager.h"
 #import "OTROscarManager.h"
 #import "OTRConstants.h"
+#import "customFunction.h"
 #import "Strings.h"
 
 #define kOTRServiceName @"org.chatsecure.ChatSecure"

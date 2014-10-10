@@ -21,6 +21,7 @@
 //  along with ChatSecure.  If not, see <http://www.gnu.org/licenses/>.
 
 #import "OTRQRCodeViewController.h"
+#import "customFunction.h"
 #import "Strings.h"
 
 @implementation OTRQRCodeViewController

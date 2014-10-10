@@ -22,6 +22,7 @@
 
 #import "OTROscarAccount.h"
 #import "OTRProtocol.h"
+#import "customFunction.h"
 #import "Strings.h"
 #import "OTROscarManager.h"
 #import "OTRConstants.h"

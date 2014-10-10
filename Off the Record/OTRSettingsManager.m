@@ -22,6 +22,7 @@
 
 #import "OTRSettingsManager.h"
 #import "OTRViewSetting.h"
+#import "customFunction.h"
 #import "Strings.h"
 #import "OTRSettingsGroup.h"
 #import "OTRSetting.h"

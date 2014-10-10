@@ -31,6 +31,7 @@
 #import "XMPPvCardCoreDataStorage.h"
 #import "XMPPMessage+XEP_0184.h"
 #import "XMPPMessage+XEP_0085.h"
+#import "customFunction.h"
 #import "Strings.h"
 
 #import "DDLog.h"

@@ -23,10 +23,16 @@
 #import "OTRChatViewController.h"
 #import "OTREncryptionManager.h"
 #import <QuartzCore/QuartzCore.h>
+#import "customFunction.h"
 #import "Strings.h"
+#import "customFunction.h"
 #import "OTRDoubleSetting.h"
 #import "OTRConstants.h"
 #import "OTRAppDelegate.h"
+
+
+
+
 
 #define kTabBarHeight 0
 #define kSendButtonWidth 60

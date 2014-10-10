@@ -25,6 +25,7 @@
 #import "OTRCodec.h"
 #import "OTRProtocolManager.h"
 #import "NSString+HTML.h"
+#import "customFunction.h"
 #import "Strings.h"
 #import "OTRConstants.h"
 

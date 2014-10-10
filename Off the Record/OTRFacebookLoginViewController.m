@@ -21,6 +21,7 @@
 //  along with ChatSecure.  If not, see <http://www.gnu.org/licenses/>.
 
 #import "OTRFacebookLoginViewController.h"
+#import "customFunction.h"
 #import "Strings.h"
 #import "OTRAppDelegate.h"
 

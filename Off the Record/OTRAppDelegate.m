@@ -24,12 +24,16 @@
 
 #import "OTRBuddyListViewController.h"
 #import "OTRChatViewController.h"
+#import "customFunction.h"
 #import "Strings.h"
 #import "OTRSettingsViewController.h"
 #import "OTRSettingsManager.h"
 #import "DDLog.h"
 #import "Appirater.h"
 #import "OTRConstants.h"
+
+
+
 
 // Log levels: off, error, warn, info, verbose
 #if DEBUG

@@ -23,6 +23,7 @@
 #import "OTRXMPPAccount.h"
 #import "OTRProtocol.h"
 #import "OTRConstants.h"
+#import "customFunction.h"
 #import "Strings.h"
 #import "OTRXMPPManager.h"
 

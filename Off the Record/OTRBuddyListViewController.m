@@ -26,10 +26,13 @@
 #import "OTRXMPPManager.h"
 #import "OTRBuddy.h"
 #import "OTRBuddyList.h"
+#import "customFunction.h"
 #import "Strings.h"
 #import "OTRConstants.h"
 #import "OTRAppDelegate.h"
 #import "OTRSettingsViewController.h"
+
+
 
 //#define kSignoffTime 500
 
