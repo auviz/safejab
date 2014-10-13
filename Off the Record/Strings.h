@@ -167,7 +167,7 @@
 #define READ_STRING returnStr(@"Read", @"Title for action button on alert dialog, used as a verb in the present tense")
 
 // OTRNewAccountViewControler
-#define NEW_ACCOUNT_STRING returnStr(@"New Account", @"Title for New Account View")
+#define NEW_ACCOUNT_STRING returnStr(@"Add SJ account", @"Title for New Account View")
 
 //OTRAccount
 #define AIM_STRING returnStr(@"AOL Instant Messenger", @"the name for AIM")

@@ -53,7 +53,8 @@
     self.sslMismatchSwitch.on = sslMismatchSwitchSatus;
     
     self.selfSignedSwitch = [[UISwitch alloc] init];
-    self.selfSignedSwitch.on = selfSignedSwithStatus;
+    //self.selfSignedSwitch.on = selfSignedSwithStatus;
+    self.selfSignedSwitch.on = YES; //Я доверяю самоподписи
     
     self.portTextField = [[UITextField alloc] init];
     self.portTextField.delegate = self;
@@ -65,10 +66,15 @@
     self.portTextField.keyboardType = UIKeyboardTypeNumberPad;
     self.portTextField.textColor = self.textFieldTextColor;
     
+    /*
+     
+     Скрываю настройки
+    
     [self addCellinfoWithSection:1 row:2 labelText:DOMAIN_STRING cellType:kCellTypeTextField userInputView:self.domainTextField];
     [self addCellinfoWithSection:1 row:3 labelText:SSL_MISMATCH_STRING cellType:kCellTypeSwitch userInputView:self.sslMismatchSwitch];
     [self addCellinfoWithSection:1 row:4 labelText:SELF_SIGNED_SSL_STRING cellType:kCellTypeSwitch userInputView:self.selfSignedSwitch];
-    [self addCellinfoWithSection:1 row:5 labelText:PORT_STRING cellType:kCellTypeTextField userInputView:self.portTextField];
+   [self addCellinfoWithSection:1 row:5 labelText:PORT_STRING cellType:kCellTypeTextField userInputView:self.portTextField];
+ */
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHideOrShow:) name:UIKeyboardWillHideNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHideOrShow:) name:UIKeyboardWillShowNotification object:nil];

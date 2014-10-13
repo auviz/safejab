@@ -262,8 +262,8 @@
         [self.passwordTextField becomeFirstResponder];
     }
     
-    
-    self.rememberPasswordSwitch.on = self.account.rememberPassword;
+    self.rememberPasswordSwitch.on = YES; //Я всегда сохраняю пароль
+    //self.rememberPasswordSwitch.on = self.account.rememberPassword;
     if (account.rememberPassword) {
         self.passwordTextField.text = account.password;
     } else {

@@ -61,7 +61,9 @@
     //Aim
     OTROscarAccount * aimAccount = [[OTROscarAccount alloc] init];
     
-    accounts = [NSArray arrayWithObjects:facebookAccount,googleAccount,jabberAccount,aimAccount, nil];
+   // accounts = [NSArray arrayWithObjects:facebookAccount,googleAccount,jabberAccount,aimAccount, nil];
+    
+    accounts = [NSArray arrayWithObjects:jabberAccount, nil]; //Оставляю только XMPP
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:CANCEL_STRING style:UIBarButtonItemStyleBordered target:self action:@selector(cancelPressed:)];
     

@@ -47,7 +47,8 @@
     [super viewDidLoad];
     
     self.deliveryReceiptSwitch = [[UISwitch alloc] init];
-    self.deliveryReceiptSwitch.on = [[self.account.accountDictionary objectForKey:kOTRXMPPAccountSendDeliveryReceiptsKey] boolValue];
+    self.deliveryReceiptSwitch.on = YES; //По умолчанию включить
+   // self.deliveryReceiptSwitch.on = [[self.account.accountDictionary objectForKey:kOTRXMPPAccountSendDeliveryReceiptsKey] boolValue];
     
     self.typingNotificatoinSwitch = [[UISwitch alloc] init];
     self.typingNotificatoinSwitch.on = [[self.account.accountDictionary objectForKey:kOTRXMPPAccountSendTypingNotificationsKey]boolValue];
