@@ -34,7 +34,7 @@
 
 
 
-#define BUDDY_LIST_STRING returnStr(@"Buddy List", @"Title for the buddy list tab")
+#define BUDDY_LIST_STRING returnStr(@"Контакты", @"Title for the buddy list tab")
 #define CONVERSATIONS_STRING returnStr(@"Conversations", @"Title for the conversations tab")
 #define ACCOUNTS_STRING returnStr(@"Accounts", @"Title for the accounts tab")
 #define ABOUT_STRING returnStr(@"About", @"Title for the about page")
@@ -46,7 +46,7 @@
 #define CLEAR_CHAT_HISTORY_STRING returnStr(@"Clear Chat History", @"String shown in dialog for removing chat history")
 #define SEND_STRING returnStr(@"Send", @"For sending a message")
 #define OK_STRING returnStr(@"OK", @"Accept the dialog")
-#define RECENT_STRING returnStr(@"Recent", @"Title for header of Buddy list view with Recent Buddies")
+#define RECENT_STRING returnStr(@"Недавние", @"Title for header of Buddy list view with Recent Buddies")
 
 // Used in OTRChatViewController
 #define YOUR_FINGERPRINT_STRING returnStr(@"Fingerprint for you", @"your fingerprint")

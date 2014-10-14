@@ -35,7 +35,7 @@
     BOOL sslMismatchSwitchSatus = [[[self.account accountDictionary] objectForKey:kOTRXMPPAccountAllowSSLHostNameMismatch] boolValue];
     BOOL selfSignedSwithStatus = [[[self.account accountDictionary] objectForKey:kOTRXMPPAccountAllowSelfSignedSSLKey] boolValue];
 	
-    self.usernameTextField.placeholder = @"user@example.com";
+    self.usernameTextField.placeholder = @"login";
     self.usernameTextField.keyboardType = UIKeyboardTypeEmailAddress;
     
     self.domainTextField = [[UITextField alloc] init];

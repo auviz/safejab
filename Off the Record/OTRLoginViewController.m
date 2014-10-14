@@ -355,6 +355,29 @@
     BOOL fields = [self checkFields];
     if(fields)
     {
+        /*
+         
+         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:ERROR_STRING message:XMPP_PORT_FAIL_STRING delegate:nil cancelButtonTitle:nil otherButtonTitles:OK_STRING, nil];
+         [alert show];
+         */
+        
+        NSString *pat = @"@";
+        NSRange range = [self.usernameTextField.text rangeOfString:pat];
+        
+        if(range.length > 0){
+            
+            NSArray *strArr = [self.usernameTextField.text componentsSeparatedByString:@"@"];
+            
+            self.usernameTextField.text =[NSString stringWithFormat:@"%@%@", strArr[0], @"@safejab.com"]; //Подменяем на наш домен
+            
+        } else {
+            self.usernameTextField.text =[NSString stringWithFormat:@"%@%@", self.usernameTextField.text, @"@safejab.com"]; //Дописываем наш домен
+        }
+        
+        
+        
+
+        
         [self.view endEditing:YES];
         HUD = [[MBProgressHUD alloc] initWithView:self.view];
         [self.view addSubview:HUD];
@@ -363,7 +386,6 @@
         [HUD show:YES];
         
         [self readInFields];
-
         self.account.password = passwordTextField.text;
         
 

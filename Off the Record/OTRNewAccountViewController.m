@@ -50,16 +50,16 @@
     [self.view addSubview:tableView];
     
     //Facebook
-    OTRXMPPAccount * facebookAccount = [[OTRXMPPAccount alloc] initWithDomain:kOTRFacebookDomain];
+    //OTRXMPPAccount * facebookAccount = [[OTRXMPPAccount alloc] initWithDomain:kOTRFacebookDomain];
     
     //Google Chat
-    OTRXMPPAccount * googleAccount = [[OTRXMPPAccount alloc] initWithDomain:kOTRGoogleTalkDomain];
+   // OTRXMPPAccount * googleAccount = [[OTRXMPPAccount alloc] initWithDomain:kOTRGoogleTalkDomain];
     
     //Jabber
     OTRXMPPAccount * jabberAccount = [[OTRXMPPAccount alloc] initWithDomain:@""];
     
     //Aim
-    OTROscarAccount * aimAccount = [[OTROscarAccount alloc] init];
+   // OTROscarAccount * aimAccount = [[OTROscarAccount alloc] init];
     
    // accounts = [NSArray arrayWithObjects:facebookAccount,googleAccount,jabberAccount,aimAccount, nil];
     
